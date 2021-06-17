@@ -3,6 +3,7 @@ import Nav from "../src/Nav";
 import Banner from "../src/Banner";
 import requests from "./Requests";
 import Row from "./Row";
+import "./HomeScreen.css";
 
 function HomeScreen() {
   return (
@@ -39,7 +40,7 @@ function HomeScreen() {
         isLargeRow
       />
       <Row
-        title="Documenteries"
+        title="Documentaries"
         fetchUrl={requests.fetchDocumentaries}
         isLargeRow
       />
